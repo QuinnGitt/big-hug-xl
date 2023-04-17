@@ -1,0 +1,21 @@
+{
+  "name": "big-hug-xl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    ,
+    "sass": "sass -w scss:css --style=compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuinnGitt/big-hug-xl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuinnGitt/big-hug-xl/issues"
+  },
+  "homepage": "https://github.com/QuinnGitt/big-hug-xl#readme"
+}
