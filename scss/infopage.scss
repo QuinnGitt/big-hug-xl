@@ -1,20 +1,33 @@
-.upper-text{
-    margin: 100px;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.upper-text > .title{
+.upper-text{
+    margin: 80px;
+    display: flex;
+}
+
+.upper-text > .upper-text-content > .title{
     font-size: 60px;
 }
 
-.upper-text > .text-1{
+.upper-text > .upper-text-content > .text-1{
     color: red;
     font-size: 25px;
 }
-.upper-text > .text-2{
+.upper-text > .upper-text-content > .text-2{
     font-size: 30px;
     white-space: pre-line;
 }
 .upper-text > .image{
-    left: 75rem;
+ 
     display: flex;
 }
+.page-divider{
+    background: lightgray;
+}
+.page-divider > .page-divider-text{
+    font-size: 35px;
+}
+    
