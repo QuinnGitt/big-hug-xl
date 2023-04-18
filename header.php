@@ -1,7 +1,3 @@
-<head>
-    <link rel="stylesheet" href="css/header.css">
-</head>
-
 <header>
     <a href="index.php"><img class="logo" src="img/logo.png" alt="logo"></a>
     <nav>
