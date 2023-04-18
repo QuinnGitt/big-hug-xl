@@ -11,6 +11,6 @@ include('css/homepage.css');
     <title>Home</title>
 </head>
 <body>
-    <img src="img/home-banner.png" alt="">
+<?php include "header.php"?>
 </body>
 </html>
