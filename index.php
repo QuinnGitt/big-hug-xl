@@ -1,6 +1,4 @@
-<?php 
-include('css/homepage.css');
-?>
+<?php include "header.php"?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,6 +9,8 @@ include('css/homepage.css');
     <title>Home</title>
 </head>
 <body>
-<?php include "header.php"?>
+<img src="." alt="">
+
+
 </body>
 </html>
