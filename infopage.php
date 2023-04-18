@@ -10,16 +10,18 @@
 <body>
     
     <div class="upper-text">
-        <h1 class="title">The Big Hug</h1>
-        <p class="text-1">Wij verwarmen mensen, niet de planeet</p>
-        <p class="text-2">
-            Met een Big Hug warmtedeken verwen je jezelf pas echt.
-            Lekker warm loungen op de bank terwijl je je favoriete serie kijkt,
-            of geef je rug ultieme ontspanning tijdens het werken en plof neer op je Big Hug in je bureaustoel. 
-        </p>
+        <div class="upper-text-content">
+            <img class="title" src="img/the_big_hug.png" alt="Big Hug">
+            <p class="text-1">Wij verwarmen mensen, niet de planeet</p>
+            <p class="text-2">
+                Met een Big Hug warmtedeken verwen je jezelf pas echt.
+                Lekker warm loungen op de bank terwijl je je favoriete serie kijkt,
+                of geef je rug ultieme ontspanning tijdens het werken en plof neer op je Big Hug in je bureaustoel. 
+            </p>
+        </div>
         <img class="image"src="img/info-banner.png" alt="info banner">
     </div>
-
+    <div class="page-divider"><p class="page-divider-text">Homepage > Big Hug</p></div>
 
 
 
