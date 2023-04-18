@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/infopage.css">
+    <title>Infopage</title>
+</head>
+<body>
+    
+    <div class="upper-text">
+        <h1 class="title">The Big Hug</h1>
+        <p class="text-1">Wij verwarmen mensen, niet de planeet</p>
+        <p class="text-2">
+            Met een Big Hug warmtedeken verwen je jezelf pas echt.
+            Lekker warm loungen op de bank terwijl je je favoriete serie kijkt,
+            of geef je rug ultieme ontspanning tijdens het werken en plof neer op je Big Hug in je bureaustoel. 
+        </p>
+        <img class="image"src="img/info-banner.png" alt="info banner">
+    </div>
+
+
+
+
+</body>
+</html>
