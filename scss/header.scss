@@ -1,6 +1,56 @@
-header {
-    .logo {
-        width: 200px;
-        height: 100px;
-    }
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FA6E6E;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-menu li {
+    float: left;
+    font-family: 'Playfair Display';
+    
+}
+
+.navigation-menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    
+}
+
+.navigation-menu li a:hover {
+    background-color: #B4B58A;
+}
+
+.navigation-menu .active {
+    background-color: #4CAF50;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+.logo-link img {
+    padding-left: 20px;
+    height: 60px;
+    margin-right: 10px;
+    padding: 0px;
+}
+
+.menu-link {
+    margin: 0 10px;
 }

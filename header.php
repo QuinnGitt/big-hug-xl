@@ -1,3 +1,30 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/header.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <body>
+        <ul class="header">
+            <li><a href="#"><img src="./img/logo.png" alt="Logo"></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </body>
+</body>
+
+</html>
+=======
 <header>
     <a href="index.php"><img class="logo" src="img/logo.png" alt="logo"></a>
     <nav>
@@ -10,3 +37,4 @@
         </ul>
     </nav>
 </header>
+>>>>>>> 9624915f6434f7d37ea0fa996f48d729fd092327
