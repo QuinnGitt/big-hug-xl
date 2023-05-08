@@ -23,5 +23,6 @@
         <h1>Wat is de Big Hug?</h1>
         <p>De Big Hug is een infrarood warmtedeken met een zit- en rugverwarming en oplaadbare batterij. Kies een van de 3 warmtestanden en geniet urenlang van behaaglijke warmte.</p>
     </div>
+    <?php include "footer.php"?>
 </body>
 </html>
