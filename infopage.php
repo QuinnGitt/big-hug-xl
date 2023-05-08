@@ -24,6 +24,6 @@
     <div class="page-divider"><p class="page-divider-text">Homepage > Big Hug</p></div>
 
 
-
+    <?php include "footer.php"?>
 </body>
 </html>
