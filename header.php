@@ -6,3 +6,5 @@
         <li><a href="#" class="menu-link">Contact</a></li>
         <li><a href="#" class="menu-link">About</a></li>
     </ul>
+
+    <link rel="stylesheet" href="css/header.css">

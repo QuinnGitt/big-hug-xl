@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="./css/homepage.css">
     <title>Home</title>
 </head>
+
+<?php include "header.php"?>
+
 <body>
     <div class="home_banner">
         <img src="img/home-banner.png" alt="">
