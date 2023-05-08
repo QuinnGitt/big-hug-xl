@@ -1,5 +1,25 @@
-<<<<<<< HEAD
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #FA6E6E;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.footer__links {
+  justify-content: space-around;
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=footer.css.map */
-=======
-.footer{position:fixed;left:0;bottom:0;width:100%;background-color:#fa6e6e;color:#fff;text-align:center}.footer__links{justify-content:space-around;display:flex}ul{list-style-type:none}a{color:inherit;text-decoration:none}/*# sourceMappingURL=footer.css.map */
->>>>>>> 9624915f6434f7d37ea0fa996f48d729fd092327
