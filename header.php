@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,3 +24,17 @@
 </body>
 
 </html>
+=======
+<header>
+    <a href="index.php"><img class="logo" src="img/logo.png" alt="logo"></a>
+    <nav>
+        <ul class="nav__links">
+            <li><a href="index.php">Big Hug</a></li>
+            <li><a href="aboutUs.php">About Us</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="admin.php">Admin</a></li>
+            <li><a href="faq.php">FAQ</a></li>
+        </ul>
+    </nav>
+</header>
+>>>>>>> 9624915f6434f7d37ea0fa996f48d729fd092327

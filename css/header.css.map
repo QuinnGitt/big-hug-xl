@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sourceRoot":"","sources":["../scss/header.scss"],"names":[],"mappings":"AAAA,EACI,SACA,UAEJ,iBACI,qBACA,SACA,UACA,gBACA,yBACA,eACA,MACA,WACA,aACA,8BAGJ,oBACI,WACA,+BAIJ,sBACI,cACA,WACA,kBACA,aACA,qBAIJ,4BACI,yBAGJ,yBACI,yBAGJ,WACI,aACA,mBACA,YAGJ,eACI,kBACA,YACA,kBACA,YAGJ,WACI","file":"header.css"}
+=======
+{"version":3,"sourceRoot":"","sources":["../scss/header.scss"],"names":[],"mappings":"AACI,aACI,YACA","file":"header.css"}
+>>>>>>> 9624915f6434f7d37ea0fa996f48d729fd092327
