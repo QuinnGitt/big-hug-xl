@@ -8,7 +8,8 @@
     <title>Infopage</title>
 </head>
 <body>
-    
+<?php include "header.php"?>
+
     <div class="upper-text">
         <div class="upper-text-content">
             <img class="title" src="img/the_big_hug.png" alt="Big Hug">
@@ -36,6 +37,7 @@
         </div>
     </div>
 
-    <script src="js/info.js"></script>
+
+
 </body>
 </html>
