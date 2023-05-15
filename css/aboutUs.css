@@ -1,1 +1,18 @@
+.aboutUs-banner {
+  float: right;
+  width: 40vw;
+}
+
+.aboutUs-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.title {
+  /* Set position to relative to keep the element in the document flow */
+  font-family: "Playfair Display";
+  font-weight: bolder;
+}
+
 /*# sourceMappingURL=aboutUs.css.map */
