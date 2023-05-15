@@ -5,6 +5,39 @@
 
 .home_banner {
     img {
-        object-fit: cover;
+        width: 100%;
+        margin-top: 3.5rem;
+    }
+
+    h1 {
+        position: absolute;
+        top: 8rem;
+        left: 5rem;
+        color: white;
+        font-size:xxx-large;
+    }
+}
+
+.home_divider {
+    background-color: #D2DFD9;
+    height: 4rem;
+    // margin-bottom: 15rem;
+    display: flex;
+    align-items: center;
+    p {
+        margin-left: 5rem;
+        font-weight: 1000;
+        font-size: x-large;
+    }
+}
+
+.home-tekst {
+    margin: 4rem 0 10rem 5rem;
+    h1 {
+        color: #F7737A;
+    }
+
+    p {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 }
