@@ -21,19 +21,24 @@
     white-space: pre-line;
 }
 .upper-text > .image{
- 
     display: flex;
+    margin: 10px;
+    
+    height: 30rem;
 }
 .page-divider{
     background: lightgray;
+    height: 3rem;
 }
 .page-divider > .page-divider-text{
-    font-size: 35px;
+    font-size: 30px;
 }
-.big-hug-content{
+.big-hug-content > .big-hug-text{
     font-size: 30px;
     white-space: pre-line;
 }    
-.big-content > .big-hug > .big-hug-image{
-    text-align: right;
+.big-hug-content > .big-hug-img{
+    left: 50%;
+    position: absolute;
+    top: 70%;
 }
