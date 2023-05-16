@@ -1,7 +1,36 @@
-#lijn {
-  height: 2rem;
+iframe {
+  border: 0;
+  margin-top: 3.5rem;
+}
+
+div#lijn {
+  position: relative;
+  height: 75px;
   width: 1510px;
-  background-color: grey;
+  font-family: "Playfair Display";
+  font-size: 2rem;
+  background-color: #D2DFD9;
+  display: flex;
+  align-items: center;
+  bottom: 5px;
+}
+div#lijn h4 {
+  position: relative;
+  left: 2.5rem;
+  font-weight: normal;
+  padding: 5px;
+}
+div#lijn a {
+  position: relative;
+  font-weight: bold;
+  left: 2.3rem;
+  display: flex;
+  align-items: center;
+  transition: color 0.4s;
+}
+div#lijn a:hover {
+  color: #337d36;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=contact.css.map */
