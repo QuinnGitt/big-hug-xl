@@ -9,7 +9,7 @@
     <title>Infopage</title>
 </head>
 <body>
-<?php include "navbar.php"?>
+<?php include "header.php"?>
 
     <div class="upper-text">
         <div class="upper-text-content">
