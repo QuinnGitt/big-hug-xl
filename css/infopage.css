@@ -30,11 +30,14 @@
 
 .page-divider {
   background: lightgray;
-  height: 3rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
 }
 
 .page-divider > .page-divider-text {
   font-size: 30px;
+  height: 2rem;
 }
 
 .big-hug-content > .big-hug-text {
@@ -43,7 +46,7 @@
 }
 
 .big-hug-content > .big-hug-img {
-  left: 50%;
+  left: 60%;
   position: absolute;
   top: 70%;
 }
