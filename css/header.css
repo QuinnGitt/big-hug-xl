@@ -16,6 +16,7 @@
   display: flex;
   height: 3.5rem;
   justify-content: space-between;
+  z-index: 2;
 }
 
 .navigation-menu li {
@@ -25,7 +26,7 @@
   justify-content: center;
   position: relative;
 }
-.navigation-menu li:not(:first-of-type)::before {
+.navigation-menu li:not(:nth-of-type(-n+2))::before {
   content: "";
   width: 100%;
   position: absolute;
@@ -36,7 +37,7 @@
   transition: transform 300ms ease-in-out;
   transform-origin: left;
 }
-.navigation-menu li:not(:first-of-type):hover::before {
+.navigation-menu li:not(:nth-of-type(-n+2)):hover::before {
   transform: scaleX(1);
 }
 
