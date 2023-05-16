@@ -1,3 +1,5 @@
+<?php include "footer.php"?>
+<?php include "header.php"?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,8 +42,5 @@
                 Wil je een verwarmde onderrug en zitgedeelte? Kies dan voor de Big Hug (XL), deze deken verwarmd beide delen en verwarmen dus meer dan een plek! De Big Hug leg je lekker op je stoel om jezelf te verwarmen. De Big Hug XL past goed bij een wat grotere bureaustoel.
             </p>
         </div>
-
-        <?php include "footer.php"?>
-        <?php include "header.php"?>
     </body>
 </html>
