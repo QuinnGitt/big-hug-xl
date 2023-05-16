@@ -14,20 +14,19 @@
 
 .upper-text > .upper-text-content > .text-1{
     color: red;
-    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .upper-text > .upper-text-content > .text-2{
-    font-size: 30px;
+    font-size: 25px;
     white-space: pre-line;
 }
 .upper-text > .image{
     display: flex;
     margin: 10px;
-    
     height: 30rem;
 }
 .page-divider{
-    background: lightgray;
+    background: #D2DFD9;
     height: 4rem;
     display: flex;
     align-items: center;
@@ -39,6 +38,7 @@
 .big-hug-content > .big-hug-text{
     font-size: 30px;
     white-space: pre-line;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }    
 .big-hug-content > .big-hug-img{
     left: 60%;
