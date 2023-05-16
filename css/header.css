@@ -11,6 +11,7 @@
   overflow: hidden;
   background-color: #FA6E6E;
   position: fixed;
+  position: relative;
   top: 0;
   width: 100%;
   display: flex;
@@ -25,7 +26,7 @@
   justify-content: center;
   position: relative;
 }
-.navigation-menu li:not(:first-of-type)::before {
+.navigation-menu li:not(:nth-of-type(-n+2))::before {
   content: "";
   width: 100%;
   position: absolute;
@@ -36,7 +37,7 @@
   transition: transform 300ms ease-in-out;
   transform-origin: left;
 }
-.navigation-menu li:not(:first-of-type):hover::before {
+.navigation-menu li:not(:nth-of-type(-n+2)):hover::before {
   transform: scaleX(1);
 }
 

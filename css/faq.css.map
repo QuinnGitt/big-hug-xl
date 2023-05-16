@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"faq.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/faq.scss"],"names":[],"mappings":"AACI;EACI;EACA;;AAGJ;EACI;EACA;EACA;EACA;;AAGJ;EACI;EACI","file":"faq.css"}

@@ -11,6 +11,7 @@
     overflow: hidden;
     background-color: #FA6E6E;
     position: fixed;
+    position: relative;
     top: 0;
     width: 100%;
     display: flex;
@@ -26,7 +27,7 @@
     justify-content: center;
     position: relative;
 
-    &:not(:first-of-type)::before {
+&:not(:nth-of-type(-n+2))::before {
         content: '';
         width: 100%;
         position: absolute;
@@ -38,7 +39,7 @@
         transform-origin: left;
     }
 
-    &:not(:first-of-type):hover::before {
+    &:not(:nth-of-type(-n+2)):hover::before {
         transform: scaleX(1);
     }
 }
