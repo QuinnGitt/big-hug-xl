@@ -1,18 +1,20 @@
 iframe {
+  position: relative;
+  top: 3.4rem;
   border: 0;
-  margin-top: 3.5rem;
 }
 
 div#lijn {
   position: relative;
-  height: 75px;
-  width: 1510px;
+  height: 4.5rem;
+  width: 1519px;
   font-family: "Playfair Display";
-  font-size: 2rem;
+  font-size: 1.8rem;
   background-color: #D2DFD9;
   display: flex;
   align-items: center;
-  bottom: 5px;
+  top: 2.35rem;
+  z-index: 0;
 }
 div#lijn h4 {
   position: relative;
@@ -31,6 +33,77 @@ div#lijn a {
 div#lijn a:hover {
   color: #337d36;
   cursor: pointer;
+}
+
+#cinfo {
+  position: relative;
+  top: 3rem;
+  margin-bottom: 10rem;
+}
+#cinfo #bigimg {
+  position: relative;
+  width: 220px;
+  left: 15rem;
+  margin-bottom: 2rem;
+}
+#cinfo p.info {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 2.3rem;
+}
+#cinfo #contactinfo img {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+#contactformulier {
+  position: absolute;
+  left: 50rem;
+  top: 32rem;
+  height: 20rem;
+  width: 40rem;
+}
+#contactformulier h1 {
+  position: relative;
+  font-size: 2rem;
+  bottom: 2.5rem;
+}
+#contactformulier .input {
+  margin-bottom: 0.5rem;
+  max-width: 40rem;
+  width: 20rem;
+  height: 2rem;
+  max-height: 16rem;
+  border-radius: 4px;
+  border-style: solid;
+}
+#contactformulier #vraag_opmerking {
+  height: 5rem;
+  border-radius: 5px;
+}
+#contactformulier #nieuwsbrief {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+}
+
+.button {
+  padding: 10px 20px;
+  position: relative;
+  left: 22rem;
+  width: 10rem;
+  border-radius: 10px;
+  background-color: #D2DFD9;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to create depth */
+}
+
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.1803921569); /* Background color when hovering over the button */
+}
+
+.button:focus {
+  outline: none; /* Remove the default focus outline */
+  box-shadow: 0 0 0 1px rgb(255, 103, 103); /* Add a blue glow when focused */
 }
 
 /*# sourceMappingURL=contact.css.map */
