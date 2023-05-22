@@ -2,6 +2,7 @@
     .banner {
         display: flex;
         justify-content: center;
+        height: 30rem;
     }
 
     .divider {
@@ -9,6 +10,8 @@
         height: 4rem;
         display: flex;
         align-items: center;
+        position: relative;
+        bottom: 4rem;
         }
 
     p {
@@ -17,6 +20,57 @@
     }
 }
 
-.vragen {
+section {
+    display: flex;
+    justify-content: center;
+    .vragen {
+        width: 40rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5rem;
+        p {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        h2 {
+            margin: 0 0 4rem 0;
+        }
     
+        button {
+            color: #F7737A;
+            font-weight: bold;
+        }
+        .accordion {
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 20px;
+            transition: 0.4s;
+            background-color: white;
+          }
+          
+          .accordion:after {
+            content: '\002B';
+            font-weight: bold;
+            float: right;
+            margin-left: 5px;
+          }
+          
+          .active:after {
+            content: "\2212";
+          }
+            
+          .panel {
+            padding: 0 18px;
+            background-color: white;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+          }
+        }
 }
