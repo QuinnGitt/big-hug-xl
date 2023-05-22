@@ -39,6 +39,7 @@
         </div>
 
         <img id="slide" onclick="nextslide()" class="big-hug-img"src="img/woolly-wit.png" alt="big-hug">
+        <p class="big-hug-names">Woolly|| Wit</p>
     
     </div>
 
