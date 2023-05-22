@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -14,25 +15,29 @@
 
 .upper-text > .upper-text-content > .text-1 {
   color: red;
-  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,  sans-serif;
 }
 
 .upper-text > .upper-text-content > .text-2 {
-  font-size: 30px;
+  font-size: 25px;
   white-space: pre-line;
+  margin-right: 50px;
 }
 
 .upper-text > .image {
   display: flex;
   margin: 10px;
   height: 30rem;
+  width: auto;
 }
 
 .page-divider {
-  background: lightgray;
+  background: #D2DFD9;
   height: 4rem;
   display: flex;
   align-items: center;
+  position: relative;
+  top: -90px;
 }
 
 .page-divider > .page-divider-text {
@@ -43,12 +48,16 @@
 .big-hug-content > .big-hug-text {
   font-size: 30px;
   white-space: pre-line;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,  sans-serif;
+  height: 4rem;
+  position: relative;
+  top: -120px;
 }
 
 .big-hug-content > .big-hug-img {
   left: 60%;
   position: absolute;
-  top: 70%;
+  top: 55%;
 }
 
 /*# sourceMappingURL=infopage.css.map */
