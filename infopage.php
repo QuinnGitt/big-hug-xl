@@ -37,9 +37,10 @@
                 gemak en comfort en is daarmee een betere keuze dan de concurrentie.
             </p>
         </div>
-
-        <img id="slide" onclick="nextslide()" class="big-hug-img"src="img/woolly-wit.png" alt="big-hug">
-        <p class="big-hug-names">Woolly|| Wit</p>
+            <div class="big-hug-slide">
+                <img id="slide" onclick="nextslide()" class="big-hug-img"src="img/woolly-wit.png" alt="big-hug">
+                <p id="nameSlide"class="big-hug-names">Woolly | Wit</p>
+            </div>
     
     </div>
 
