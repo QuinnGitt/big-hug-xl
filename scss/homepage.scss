@@ -41,3 +41,17 @@
         font-size: 20px;
     }
 }
+
+@media screen and (max-width: 992px) {
+    .home_banner {
+        img {
+            margin-top: 3.5rem;
+            object-fit: cover;
+            object-position: 68% 0;
+            width: 100%;
+            max-height: 40vh;
+            aspect-ratio: 1 / 1;
+        }
+    }
+}
+
