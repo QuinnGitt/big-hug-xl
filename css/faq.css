@@ -1,16 +1,70 @@
+@charset "UTF-8";
 .faq-banner .banner {
   display: flex;
   justify-content: center;
+  height: 30rem;
 }
 .faq-banner .divider {
   background-color: #D2DFD9;
   height: 4rem;
   display: flex;
   align-items: center;
+  position: relative;
+  bottom: 4rem;
 }
 .faq-banner p {
   margin-left: 5rem;
   font-size: x-large;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+section .vragen {
+  width: 40rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+section .vragen p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+section .vragen h2 {
+  margin: 0 0 4rem 0;
+}
+section .vragen button {
+  color: #F7737A;
+  font-weight: bold;
+}
+section .vragen .accordion {
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+  background-color: white;
+}
+section .vragen .accordion:after {
+  content: "+";
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+section .vragen .active:after {
+  content: "−";
+}
+section .vragen .panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
 }
 
 /*# sourceMappingURL=faq.css.map */

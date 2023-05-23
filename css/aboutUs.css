@@ -11,12 +11,14 @@
 }
 
 .title {
+  padding-left: 14px;
   margin-top: 4rem;
   margin-bottom: 1rem;
   font-weight: bold;
 }
 
 .aboutUs-divider {
+  padding-left: 14px;
   background-color: #D2DFD9;
   height: 4rem;
   display: flex;
@@ -26,6 +28,7 @@
 }
 
 .aboutUs-text {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", "sans-serif";
   font-size: 1.2rem;
   line-height: 1.7;
   border-left: 14px solid #cadcd4;
@@ -34,6 +37,10 @@
   left: 10px;
   right: 20px;
   padding-left: 15px;
+}
+
+.text-section {
+  width: 59vw;
 }
 
 /*# sourceMappingURL=aboutUs.css.map */
