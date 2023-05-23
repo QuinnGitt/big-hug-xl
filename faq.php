@@ -53,7 +53,6 @@
             </div>
         </div>
         </section>
-        <script src="js/faq.js"></script>
         <?php include "footer.php"?>
     </body>
     </html>

@@ -6,8 +6,18 @@
         <a href="faq.php">FAQ</a>
         <a href="admin.php">Admin</a>
     </div>
+</footer>
 
-    <!-- <section>
+<footer class="footerFAQ">
+    <div class="footer_links">
+        <a href="index.php">Big Hug</a>
+        <a href="aboutUs.php">About Us</a>
+        <a href="contact.php">Contact</a>
+        <a href="admin.php">Admin</a>
+    </div>
+
+    <section class="footerFAQ">
+        <h2>FAQ</h2>
         <div class="vragen">
             <button class="accordion">Instructievideo's</button>
                 <div class="panel">
@@ -39,7 +49,7 @@
                 </p>
             </div>
         </div>
-        </section> -->
+        </section>
 </footer>
 
 <script src="js/faq.js"></script>

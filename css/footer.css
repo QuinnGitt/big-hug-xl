@@ -1,16 +1,91 @@
 @charset "UTF-8";
-footer .footer_links {
-  background-color: #FA6E6E;
-  text-align: center;
-  height: 4rem;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+@media screen and (min-width: 992px) {
+  .footerFAQ {
+    display: none;
+  }
+  .footer_links {
+    background-color: #FA6E6E;
+    text-align: center;
+    height: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,  sans-serif;
+  }
+  .mobile {
+    display: none;
+  }
 }
-footer a {
-  color: white;
-  text-decoration: none;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,  sans-serif;
+@media screen and (max-width: 992px) {
+  footer .footer_links {
+    display: none;
+  }
+  section.footerFAQ {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem 0 2rem;
+  }
+  section.footerFAQ h2 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 20px;
+  }
+  section.footerFAQ .vragen {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+  section.footerFAQ .vragen button {
+    color: #000000;
+  }
+  section.footerFAQ .vragen .accordion {
+    cursor: pointer;
+    padding: 1rem 0;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    background-color: #FA6E6E;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 20px;
+  }
+  section.footerFAQ .vragen .accordion:after {
+    content: "+";
+    float: right;
+    margin-left: 5px;
+  }
+  section.footerFAQ .vragen .active:after {
+    content: "−";
+  }
+  section.footerFAQ .vragen .panel {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 20px;
+  }
+  .footerFAQ {
+    background-color: #FA6E6E;
+  }
+  .footerFAQ .footer_links {
+    text-align: center;
+    height: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .footerFAQ a, .footerFAQ .mobile {
+    color: white;
+    text-decoration: none;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,  sans-serif;
+  }
 }
 
 /*# sourceMappingURL=footer.css.map */
