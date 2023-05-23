@@ -39,7 +39,7 @@
         </div>
             <div class="big-hug-slide">
                 <img id="slide" onclick="nextslide()" class="big-hug-img"src="img/woolly-wit.png" alt="big-hug">
-                <p id="nameSlide"class="big-hug-names">Woolly | Wit</p>
+                <p id="nameSlide"class="big-hug-names">Woolly Wit</p>
             </div>
     
     </div>

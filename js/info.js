@@ -21,12 +21,13 @@ function nextslide()
         currentpic = 0;
         document.getElementById('slide').src = images[currentpic];
         document.getElementById('nameSlide').innerHTML = names[currentname];
+       
     }
     else
     {
         currentpic++;
         currentname++;
         document.getElementById('slide').src = images[currentpic];
-        document.getElementById('nameSlide').innerHTML = names[currentname];
+        document.getElementById('nameSlide').innerHTML = names[currentname];    
     }
 }
