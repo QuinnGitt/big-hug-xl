@@ -4,19 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="/css/admin.css">
-    <link rel="stylesheet" href="/css/footer.css">
     <title>EDIT</title>
 </head>
 
 <body>
     
-<?php include "header.php"?>
+<?php 
+  include "header.php";
+  if ($_SERVER["REQUEST_METHOD"] === "POST") {
+  include "functions/login.php";
+  $msg = checkLogin();
+}?>
 
 <div class="container">
     <h2>Login</h2>
-    <form action="login.php" method="POST">
+    <?php if (isset($msg)) { ?>
+      <p><?php echo $msg; ?></p>
+    <?php } ?>
+    <form action="" method="POST">
       <div class="form-group">
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" required>
@@ -28,7 +34,7 @@
       <div class="form-group">
         <button type="submit">Login</button>
       </div>
-      <?php if(isset($error)) { echo "<p class='error-message'>$error</p>"; } ?>
+      
     </form>
   </div>
 
