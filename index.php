@@ -13,7 +13,7 @@
     <body>
     <?php include "header.php" ?>
     <div class="home_banner">
-        <img src="img/home_banner.jpg" alt="">
+        <img class="home_banner" src="img/home_banner.jpg" alt="">
         <h1><strong>Welkom</strong></h1>
     </div>
 

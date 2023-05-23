@@ -31,7 +31,7 @@
 }
 
 .home-tekst {
-    margin: 4rem 0 10rem 5rem;
+    margin: 4rem 0 5rem 5rem;
     h1 {
         color: #F7737A;
     }
@@ -43,6 +43,13 @@
 }
 
 @media screen and (max-width: 992px) {
+    .home_divider {
+        display: none;
+    }
+
+    .home-tekst {
+        margin: 3rem;
+    }
     .home_banner {
         img {
             margin-top: 3.5rem;
@@ -52,6 +59,7 @@
             max-height: 40vh;
             aspect-ratio: 1 / 1;
         }
+        
     }
 }
 
