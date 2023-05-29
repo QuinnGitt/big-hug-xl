@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/aboutUs.css">
     <link rel="stylesheet" href="css/header.css">
     <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" crossorigin="anonymous" />
     <title>Document</title>
 </head>
 
@@ -34,6 +34,28 @@
         </div>
     </div>
     <?php include "footer.php" ?>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuIcon = document.querySelector('.menu-icon');
+            const menuItems = document.querySelector('.menu-items');
+            const menuItemVisible = document.querySelectorAll('.menu-item-visible');
+
+            menuIcon.addEventListener('click', function() {
+                menuItems.classList.toggle('show');
+                menuIcon.querySelector('.fa-bars').classList.toggle('hide');
+                menuIcon.querySelector('.fa-times').classList.toggle('show');
+            });
+
+            menuItemVisible.forEach(function(item) {
+                item.addEventListener('click', function() {
+                    menuItems.classList.remove('show');
+                    menuIcon.querySelector('.fa-bars').classList.remove('hide');
+                    menuIcon.querySelector('.fa-times').classList.remove('show');
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>
