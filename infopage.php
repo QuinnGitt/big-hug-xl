@@ -12,7 +12,7 @@
 
     <div class="upper-text">
         <div class="upper-text-content">
-            <img class="title" src="img/the_big_hug.png" alt="Big Hug">
+            <img class="imgtitle" src="img/the_big_hug.png" alt="Big Hug">
             <p class="text-1">Wij verwarmen mensen, niet de planeet</p>
             <p class="text-2">
                 Met een Big Hug warmtedeken verwen je jezelf pas echt.
