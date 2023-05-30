@@ -26,7 +26,8 @@
   justify-content: center;
   position: relative;
 }
-.navigation-menu li:not(:nth-of-type(-n+2))::before {
+
+.navigation-menu li:not(:first-of-type)::before {
   content: "";
   width: 100%;
   position: absolute;
@@ -37,7 +38,8 @@
   transition: transform 300ms ease-in-out;
   transform-origin: left;
 }
-.navigation-menu li:not(:nth-of-type(-n+2)):hover::before {
+
+.navigation-menu li:not(:first-of-type):hover::before {
   transform: scaleX(1);
 }
 
@@ -57,7 +59,7 @@
 a.logo-link {
   display: flex;
   align-items: center;
-  padding: 0px;
+  padding: 0;
 }
 
 .logo-link img {
@@ -69,21 +71,79 @@ a.logo-link {
 .menu-link {
   margin: 0 10px;
 }
-                @media only screen and (max-width: 768px) {
-                  .navigation-menu {
-                    flex-wrap: wrap;
-                    justify-content: center;
-                    height: auto;
-                  }
-        
-                  .navigation-menu li {
-             margin-bottom: 10px;
-       }
-        
-     .navigation-menu li a {
-      font-size: 1.2rem;
-      padding: 10px;
-    }
-  }
 
-/*# sourceMappingURL=header.css.map */  
+/* Responsive Styling */
+@media screen and (max-width: 768px) {
+  .navigation-menu li a .navigation-menu {
+    justify-content: space-between;
+  }
+  .navigation-menu li a .navigation-menu li {
+    display: flex;
+    flex-grow: 1;
+  }
+  .navigation-menu li a .navigation-menu li:not(:nth-of-type(-n+2))::before {
+    content: none;
+  }
+  .navigation-menu li a .navigation-menu li a {
+    padding: 10px;
+    font-size: 1rem;
+  }
+  .navigation-menu li a .logo-link img {
+    padding-left: 4px;
+    height: 40px;
+    margin-right: 5px;
+  }
+  .navigation-menu li a .menu-link {
+    margin: 0 5px;
+  }
+}
+@media screen and (max-width: 678px) {
+  .navigation-menu {
+    justify-content: space-between;
+  }
+  .navigation-menu li {
+    display: flex;
+    flex-grow: 1;
+  }
+  .navigation-menu li:not(:nth-of-type(-n+2))::before {
+    content: none;
+  }
+  .navigation-menu li a {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+  .logo-link img {
+    padding-left: 4px;
+    height: 40px;
+    margin-right: 5px;
+  }
+  .menu-link {
+    margin: 0 5px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .navigation-menu {
+    justify-content: space-between;
+  }
+  .navigation-menu li {
+    display: flex;
+    flex-grow: 1;
+  }
+  .navigation-menu li:not(:nth-of-type(-n+2))::before {
+    content: none;
+  }
+  .navigation-menu li a {
+    padding: 10px;
+    font-size: 0.7rem;
+  }
+  .logo-link img {
+    padding-left: 4px;
+    height: 40px;
+    margin-right: 5px;
+  }
+  .menu-link {
+    margin: 0 5px;
+  }
+}
+
+/*# sourceMappingURL=header.css.map */
