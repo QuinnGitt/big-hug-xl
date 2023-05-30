@@ -35,12 +35,10 @@ if (isset($_POST['submit'])) {
     $updateStmt->execute();
     echo "updated succesfully";
 
-    // Redirect to the update page again to show the updated text
     header("Refresh:3","Location: updatepage.php");
     exit();
 }
 
-// Close the database connection
 $conn = null;
 ?>
 
