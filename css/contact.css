@@ -23,12 +23,14 @@ div#lijn h4 {
   padding: 5px;
 }
 div#lijn a {
+  color: #000;
   position: relative;
   font-weight: bold;
   left: 2.3rem;
   display: flex;
   align-items: center;
   transition: color 0.4s;
+  text-decoration: none;
 }
 div#lijn a:hover {
   color: #337d36;
@@ -39,6 +41,7 @@ div#lijn a:hover {
   position: relative;
   top: 3rem;
   margin-bottom: 10rem;
+  width: 40rem;
 }
 #cinfo #bigimg {
   position: relative;
@@ -55,6 +58,10 @@ div#lijn a:hover {
   position: relative;
   width: 20px;
   height: 20px;
+}
+#cinfo a {
+  color: #000;
+  text-decoration: none;
 }
 
 #contactformulier {

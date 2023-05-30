@@ -22,12 +22,14 @@ div#lijn {
         padding: 5px;
     }
     a {
+        color: #000;
         position: relative;
         font-weight: bold;
         left: 2.3rem;
         display: flex;
         align-items: center;
         transition: color .4s;
+        text-decoration: none;
 
         &:hover {
             color: #337d36;
@@ -40,6 +42,7 @@ div#lijn {
     position: relative;
     top: 3rem;
     margin-bottom: 10rem;
+    width: 40rem;
 
     #bigimg {
         position: relative;
@@ -60,6 +63,11 @@ div#lijn {
             width: 20px;
             height: 20px;
         }
+    }
+
+    a {
+        color: #000;
+        text-decoration: none;
     }
 }
 
