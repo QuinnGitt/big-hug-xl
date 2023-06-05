@@ -4,4 +4,27 @@ body {
   padding: 0;
 }
 
+.updtext {
+  margin-left: 20px;
+  margin-top: 60px;
+  color: #FA6E6E;
+}
+
+.texta {
+  width: 900px;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  background-color: #D2DFD9;
+}
+
+.sub {
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: #FA6E6E;
+  width: 100px;
+  height: 50px;
+}
+
 /*# sourceMappingURL=updatepage.css.map */
