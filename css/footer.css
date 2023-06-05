@@ -11,12 +11,12 @@
     justify-content: space-evenly;
     align-items: center;
   }
-  a {
+  footer a {
     color: white;
     text-decoration: none;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,  sans-serif;
   }
-  .mobile {
+  footer .mobile {
     display: none;
   }
 }

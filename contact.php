@@ -15,7 +15,7 @@
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d75676.64269122249!2d5.05370904782292!3d52.08280859608431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c668a291ed7f45%3A0x9b18dabb8687ad2!2sMBO%20Utrecht!5e0!3m2!1snl!2snl!4v1681805827589!5m2!1snl!2snl" width="1519" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     
-<div id="lijn"><a href="index.php">Homepage ></a> <h4>Contact</h4></div>
+<div id="lijn"><a href="index.php">Homepage ></a><h4>Contact</h4></div>
 
 <section id="cinfo">
 <img id="bigimg" src="img/the_big_hug.png" alt="The Bighug">

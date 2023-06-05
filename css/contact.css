@@ -7,7 +7,7 @@ iframe {
 div#lijn {
   position: relative;
   height: 4.5rem;
-  width: 1519px;
+  width: 100%;
   font-family: "Playfair Display";
   font-size: 1.8rem;
   background-color: #D2DFD9;
@@ -23,12 +23,14 @@ div#lijn h4 {
   padding: 5px;
 }
 div#lijn a {
+  color: #000;
   position: relative;
   font-weight: bold;
   left: 2.3rem;
   display: flex;
   align-items: center;
   transition: color 0.4s;
+  text-decoration: none;
 }
 div#lijn a:hover {
   color: #337d36;
@@ -39,6 +41,7 @@ div#lijn a:hover {
   position: relative;
   top: 3rem;
   margin-bottom: 10rem;
+  width: 40rem;
 }
 #cinfo #bigimg {
   position: relative;
@@ -47,14 +50,19 @@ div#lijn a:hover {
   margin-bottom: 2rem;
 }
 #cinfo p.info {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-bottom: 1.5rem;
   margin-left: 2.3rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 #cinfo #contactinfo img {
   position: relative;
   width: 20px;
   height: 20px;
+}
+#cinfo a {
+  color: #000;
+  text-decoration: none;
 }
 
 #contactformulier {
@@ -68,6 +76,7 @@ div#lijn a:hover {
   position: relative;
   font-size: 2rem;
   bottom: 2.5rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 #contactformulier .input {
   margin-bottom: 0.5rem;
@@ -84,12 +93,14 @@ div#lijn a:hover {
 }
 #contactformulier #nieuwsbrief {
   margin-top: 1rem;
-  font-size: 1.3rem;
+  font-size: 1rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .button {
   padding: 10px 20px;
   position: relative;
+  top: 2rem;
   left: 22rem;
   width: 10rem;
   border-radius: 10px;
@@ -104,6 +115,26 @@ div#lijn a:hover {
 .button:focus {
   outline: none; /* Remove the default focus outline */
   box-shadow: 0 0 0 1px rgb(255, 103, 103); /* Add a blue glow when focused */
+}
+
+@media screen and (max-width: 1300px) {
+  #contactformulier {
+    position: relative;
+    top: -2rem;
+    left: 2rem;
+    height: 20rem;
+    width: 23rem;
+  }
+  .button {
+    left: 12rem;
+    top: 0.3rem;
+  }
+  #cinfo #bigimg {
+    left: 2rem;
+  }
+  iframe {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=contact.css.map */
